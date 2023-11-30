@@ -39,14 +39,3 @@ def island_perimeter(grid):
                 result = get_perimeter(row, col)
     return result
 
-    # Example usage
-
-grid = [
-    [0, 1, 0, 0],
-    [1, 1, 1, 0],
-    [0, 1, 0, 0],
-    [1, 1, 0, 0]
-]
-
-result = island_perimeter(grid)
-print(result)
