@@ -1,9 +1,3 @@
-#!/usr/bin/python3
-
-"""
-Island perimeter
-"""
-
 def island_perimeter(grid):
     if not grid or not grid[0]:
         return 0
@@ -21,3 +15,14 @@ def island_perimeter(grid):
                     perimeter -= 2
 
     return perimeter
+
+# Example usage
+grid = [
+    [0, 1, 0, 0],
+    [1, 1, 1, 0],
+    [0, 1, 0, 0],
+    [1, 1, 0, 0]
+]
+
+result = island_perimeter(grid)
+print(result)
