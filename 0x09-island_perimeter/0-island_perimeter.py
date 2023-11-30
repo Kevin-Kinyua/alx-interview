@@ -38,3 +38,15 @@ def island_perimeter(grid):
             if grid[row][col] == 1:
                 result = get_perimeter(row, col)
     return result
+
+    # Example usage
+
+grid = [
+    [0, 1, 0, 0],
+    [1, 1, 1, 0],
+    [0, 1, 0, 0],
+    [1, 1, 0, 0]
+]
+
+result = island_perimeter(grid)
+print(result)
